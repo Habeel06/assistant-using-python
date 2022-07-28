@@ -9,7 +9,7 @@ import pyjokes
 
 
 
-listener = sr.Recognizer()
+listener = sr.Recognizer() #create a listener that recognizes speech
 engine=pyttsx3.init()
 voices=engine.getProperty('voices')
 engine.setProperty('voice',voices[0].id)
@@ -20,7 +20,7 @@ def talk(text):
     engine.runAndWait()
 def take_command():
     try:
-        with sr.Microphone() as source:
+        with sr.Microphone() as source: # use microphone as a source 
             print('listening...')
             voice=listener.listen(source)
             command=listener.recognize_google(voice)
@@ -31,7 +31,7 @@ def take_command():
     except:
      pass
     return command
-talk('Initiating cybertron in five four three two one')
+talk('Initiating cybertron in five four three two one') # just some normal printing statements
 talk('cybertron initiated')
 print('''░█████╗░██╗░░░██╗██████╗░███████╗██████╗░████████╗██████╗░░█████╗░███╗░░██╗
 ██╔══██╗╚██╗░██╔╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗████╗░██║
