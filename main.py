@@ -1,6 +1,6 @@
 import speech_recognition as sr #recognize speech
 import pyttsx3 #text to voice
-import pywhatkit#access web(ytin this case)
+import pywhatkit#access web(yt in this case)
 import datetime
 import wikipedia
 import pyjokes 
@@ -53,7 +53,7 @@ def  run_cybertron():
         pywhatkit.playonyt(song)
         print('playing'+song)
 
-    elif 'time' in command:
+    elif 'time' in command: #you can add more features like this using elif!!
         time=datetime.datetime.now().strftime('%I:%M %p')
         print(time)
         talk("Current time is"+time)
