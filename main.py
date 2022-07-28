@@ -31,7 +31,7 @@ def take_command():
     except:
      pass
     return command
-talk('Initiating cybertron in five four three two one') # just some normal printing statements
+talk('Initiating cybertron in five four three two one') # just some printing statements
 talk('cybertron initiated')
 print('''░█████╗░██╗░░░██╗██████╗░███████╗██████╗░████████╗██████╗░░█████╗░███╗░░██╗
 ██╔══██╗╚██╗░██╔╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗████╗░██║
