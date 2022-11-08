@@ -16,5 +16,5 @@ MAKE SURE THAT YOU HAVE THESE MODULES INSTALLED FIRST!
 
 
 ## 📺 Updates
-COMPLETED!
-
+Need to fix bug.<br>
+I will fix it ASAP.
