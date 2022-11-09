@@ -7,12 +7,15 @@ A assistant based on conditions.You can add more elif statements to make him a l
 
 ## 👨‍💻 Dependencies
 MAKE SURE THAT YOU HAVE THESE MODULES INSTALLED FIRST!
-> speech_recognition<br>
+> SpeechRecognition<br>
 > pyttsx3<br>
 > pywhatkit<br>
 > datetime<br>
 > wikipedia<br>
-> pyjokes 
+> pyjokes <br>
+> termcolor<br>
+> colorama 
 
 
 ## 📺 Updates
+> Fixed all bugs!
