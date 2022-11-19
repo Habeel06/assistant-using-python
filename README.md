@@ -18,4 +18,4 @@ MAKE SURE THAT YOU HAVE THESE MODULES INSTALLED FIRST!
 
 
 ## 📺 Updates
-> Fixed all bugs!
+> COMPLETED!
